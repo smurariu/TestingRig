@@ -14,6 +14,7 @@ if "%nuget%" == "" (
 	set nuget=nuget
 )
 
+%nuget% restore "src\TestingRig.sln"
 @REM %WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild src\Terrarium.Sdk.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=diag /nr:false
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe"  src\TestingRig.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=diag /nr:false
 
