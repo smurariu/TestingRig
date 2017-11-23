@@ -19,6 +19,7 @@ if "%nuget%" == "" (
 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\MSBuild.exe"  src\TestingRig.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=diag /nr:false
 
 mkdir Build
-mkdir Build\netcoreapp20
+mkdir Build\lib
+mkdir Build\lib\netcoreapp2.0
 
 %nuget% pack "src\TestingRig.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%"
