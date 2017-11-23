@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>TestingRig</id>
+    <version>$version$</version>
+    <title>TestingRig</title>
+    <authors>Murariu Serban</authors>
+    <owners>Murariu Serban</owners>
+    <licenseUrl>https://github.com/terrariumapp/terrarium-sdk/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/smurariu2/TestingRig</projectUrl>
+    <iconUrl>https://avatars1.githubusercontent.com/u/3726674?s=140</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Utility for timing the execution of functions</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright &#x00A9; Murariu Serban.  All rights reserved.</copyright>
+    <tags>c# performance timing functions testing a b</tags>
+  </metadata>
+  <files>
+    <file src="TestingRig\bin\$configuration$\TestingRig.dll" />
+  </files>
+</package>
