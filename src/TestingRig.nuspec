@@ -16,6 +16,6 @@
     <tags>c# performance timing functions testing a b</tags>
   </metadata>
   <files>
-    <file src="TestingRig\bin\$configuration$\TestingRig.dll" />
+    <file src="TestingRig\bin\$configuration$\netcoreapp2.0\TestingRig.dll" />
   </files>
 </package>
