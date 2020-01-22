@@ -20,14 +20,17 @@ namespace TestingRig
 
             Stopwatch sw = Stopwatch.StartNew();
 
-            a();
-
+            for (int i = 0; i < iterations; i++)
+            {
+                a();
+            }
             t1 = sw.ElapsedMicroSeconds();
 
             sw.Restart();
-
-            b();
-
+            for (int i = 0; i < iterations; i++)
+            {
+                b();
+            }
             t2 = sw.ElapsedMicroSeconds();
 
             sw.Stop();
